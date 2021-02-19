@@ -1,0 +1,119 @@
+footer {
+  max-width: 850px;
+  font-family: Inter, sans-serif;
+  text-align: center;
+  background-color: #373f57;
+  color: #fff;
+  font-size: 16px;
+  border-top-left-radius: 55%;
+  border-top-right-radius: 55%;
+}
+
+.footer_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo img {
+  margin-top: 50px;
+  width: 41px;
+  height: 61px;
+}
+
+input {
+  font-family: Inter, sans-serif;
+}
+
+.hashtag {
+  margin-top: 21px;
+}
+
+.footer_nav {
+  margin-top: 24px;
+}
+
+.footer_nav a {
+  padding-left: 25px;
+}
+
+.footer_social {
+  margin-top: 30px;
+}
+
+.footer_social a img {
+  width: 24px;
+  height: 25px;
+  padding-left: 32px;
+  fill: #fff;
+}
+
+.form {
+  margin-top: 27px;
+  position: relative;
+}
+
+.adress {
+  outline: none;
+  border-radius: 100px;
+  width: 480px;
+  padding: 15px 30px;
+}
+
+.adress:focus {
+  border: 3px solid #436deb;
+}
+
+.button {
+  cursor: pointer;
+  right: 9px;
+  top: 9px;
+  position: absolute;
+}
+
+.button svg {
+  height: 30px;
+}
+
+.teams {
+  margin-top: 85px;
+}
+
+.peopl {
+  margin-bottom: 69px;
+  margin-top: 26px;
+  margin-left: 20px;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  color: #373f57;
+}
+
+@media (max-width: 1200px) {
+  footer {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 992px) {
+  footer {
+    max-width: 620px;
+  }
+}
+
+@media (max-width: 767px) {
+  footer {
+    display: block;
+    border-radius: none;
+    max-width: none;
+  }
+
+  .peopls {
+    font-family: serif;
+  }
+} ;
