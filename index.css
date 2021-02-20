@@ -1,5 +1,6 @@
+@import "faq.css";
+
 footer {
-  max-width: 850px;
   font-family: Inter, sans-serif;
   text-align: center;
   background-color: #373f57;
@@ -92,6 +93,7 @@ input {
   overflow: scroll;
   height: 100px;
   display: flex;
+  justify-content: center;
 }
 
 .peopl {
@@ -103,9 +105,6 @@ input {
 }
 
 @media (max-width: 1200px) {
-  footer {
-    max-width: 720px;
-  }
 }
 
 @media (max-width: 992px) {
