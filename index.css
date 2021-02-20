@@ -96,6 +96,10 @@ input {
 .peopls {
   margin-bottom: 69px;
   margin-top: 26px;
+  width: 100%;
+  overflow: scroll;
+  height: 100px;
+  display: flex;
 }
 
 .peopl {
