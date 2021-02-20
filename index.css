@@ -106,10 +106,18 @@ input {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   footer {
-    display: block;
-    border-radius: none;
+    border-radius: 0%;
+    flex-wrap: wrap;
+
     max-width: none;
+  }
+  .footer_nav {
+    flex-wrap: wrap;
+  }
+
+  .adress {
+    width: 300px;
   }
 } ;
