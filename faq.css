@@ -1,0 +1,62 @@
+.faq {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 100px;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #eff8fa;
+}
+
+.faq h2 {
+  color: #31433f;
+  font-family: "Castledown";
+  font-size: 64px;
+  line-height: 65px;
+  text-align: left;
+}
+
+.answers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.answers summary {
+  font-weight: 700;
+  margin-top: 15px;
+}
+.answers p {
+  padding-top: 10px;
+}
+
+.left_answers {
+  width: 44%;
+}
+
+.right_answers {
+  width: 44%;
+}
+
+@media (max-width: 768px) {
+  .faq h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .answers {
+    display: block;
+  }
+  .left_answers {
+    width: 100%;
+  }
+
+  .right_answers {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .faq h2 {
+    font-size: 29px;
+    line-height: 30px;
+  }
+}
